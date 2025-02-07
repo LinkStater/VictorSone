@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+
+  <style type="text/css">
+    * {
+      margin: 0px;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    .Folder {
+      width: 170px;
+
+    }
+
+    .Line {
+      height: 50%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .Box_folder {
+
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      cursor: pointer;
+
+
+
+      height: 147px;
+      width: 170px;
+    }
+
+
+
+
+    .Text_folder {
+      font-size: 25px;
+      color: #adfff5;
+    }
+
+    .Btn_folder {
+      background-image: url(Folder.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 124px;
+      width: 175px;
+      background-color: transparent;
+      border: 0;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .Btn_folder:active {
+      background-image: url(Folder_b.png);
+    }
+
+    #menu {
+      /*background-color: #0b0e0ee0;*/
+      width: 100%;
+      height: 100%;
+
+      /*border-color: #adfff5;
+	border-style: solid;
+	visibility: hidden;*/
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- <button onclick="enviarEventoParaPai()">Voltar</button> -->
+  <div id="menu">
+
+    <div class="Line">
+
+      <div class="Box_folder">
+        <a href="https://miro.com/app/board/uXjVM4Xf4o8=/" target="_blank" <button class="Btn_folder"
+          onclick=""></button>
+        </a>
+        <p class="Text_folder">DDS1</p>
+      </div>
+
+      <div class="Box_folder">
+        <a href="https://miro.com/app/board/uXjVMyhyNYs=/" target="_blank" <button class="Btn_folder"
+          onclick=""></button>
+        </a>
+        <p class="Text_folder">DDS2</p>
+      </div>
+
+      <div class="Box_folder">
+        <button class="Btn_folder"
+          onclick="Click('https://miro.com/app/board/uXjVM5Ijn-4=/?share_link_id=442084183142')"></button>
+        <p class="Text_folder">MANAS</p>
+      </div>
+
+      <div class="Box_folder">
+        <button class="Btn_folder" onclick="Click('')"></button>
+        <p class="Text_folder"> </p>
+      </div>
+
+    </div>
+
+    <div class="Line">
+
+      <div class="Box_folder">
+        <button class="Btn_folder" onclick="Click('Paginas/menu_2.html')"></button>
+        <p class="Text_folder">Referencias</p>
+      </div>
+
+      <div class="Box_folder">
+        <button class="Btn_folder" onclick="Click('')"></button>
+        <p class="Text_folder"> </p>
+      </div>
+
+      <div class="Box_folder">
+        <button class="Btn_folder" onclick="Click('')"></button>
+        <p class="Text_folder"> </p>
+      </div>
+
+      <div class="Box_folder">
+        <button class="Btn_folder" onclick="Click('Paginas/Referencias.html')"></button>
+        <p class="Text_folder"></p>
+      </div>
+
+    </div>
+
+    <script type="text/javascript">
+      function Click(param1) {
+        window.location.href = param1;
+      }
+    </script>
+
+</body>
+
+</html>
